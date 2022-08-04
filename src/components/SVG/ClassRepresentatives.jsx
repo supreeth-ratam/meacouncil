@@ -11,7 +11,6 @@ export default function ClassRepresentatives() {
         <Class/>
         <RightBox>
         <CardContainer>
-        
         </CardContainer>
         </RightBox>
     </Container>

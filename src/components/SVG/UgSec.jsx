@@ -5,7 +5,7 @@ function UgSec(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width= {props.width}
-      height={((props.width)*(169/434)).toString()}
+      height="80"
       version="1"
       viewBox="0 0 510.75 90.75"
     >

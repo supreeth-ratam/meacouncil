@@ -31,9 +31,12 @@ const Container = styled.div`
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   transition: all 0.6s ease;
+  z-index:0;
 
 
   &:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
   &:hover .social-icons i{
     left:0;
@@ -67,7 +70,7 @@ height:100%;
 width:100%;
 transition: 1000ms ease-in-out opacity;
 & .heading{
-  background:tomato;
+  background:#272727;
   color:white;
   text-align:center;
   text-transform: uppercase;
@@ -83,24 +86,24 @@ transition: 1000ms ease-in-out opacity;
 }
 & .social-icons{
   display:flex;
-  background: transparent;
   width:13%;
   flex-direction:column;
   font-size:22px;
-  
+ 
 }
 & .social-icons i{
   display:block;
-  background:tomato;
-  color:white;
+  color:#fff;
   padding:5px;  
+  background: #272727;
+  z-index:10;
   border-top:1px solid #3a413c;
   position:relative;
   left: -40px;
   transition: 500ms ease-in-out all;
 }
 & .role{
-  background:#3a413c;
+  background:#000;
   font-family: 'Cormorant SC', serif;
   padding:0;
   margin:0;

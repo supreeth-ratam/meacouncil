@@ -5,19 +5,20 @@ import PgSec from './SVG/PgSec'
 import GenSec from './SVG/GenSec'
 import styled from 'styled-components'
 import CardPhoto from './CardPhoto'
+import ClassReps from './SVG/ClassReps'
 
 const GsecList = [
   {
     name:"Parag Bajaj",
     post:'Department General secretry',
-    imgUrl:"https://telegra.ph/file/7a9c4a5f8625950636507.png",
+    imgUrl:"https://i.postimg.cc/Hsyfmhnp/parag.png",
     instaId:"",
     email:"",
   },
   {
     name:"Ragasree R K",
     post:'General secretry',
-    imgUrl:"https://telegra.ph/file/a8ea28fddb8140983662a.png",
+    imgUrl:"https://i.postimg.cc/PrS8t2RR/Ragasree.jpg",
     instaId:"",
     email:"",
   },
@@ -26,65 +27,126 @@ const UGsecList = [
   {
     name:"Tanya Seth",
     post:'MEME Chief Editor',
-    imgUrl:"https://telegra.ph/file/f422bb1a76d4d4460a3b1.jpg",
+    imgUrl:"https://i.postimg.cc/brHVGKtb/Tanya-Seth.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Sakshi Nevage",
     post:'MEME Chief Editor',
-    imgUrl:"https://telegra.ph/file/0b246210caca874f65a46.png",
+    imgUrl:"https://i.postimg.cc/x8hG15sH/Sakshi.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Mukesh Raj S",
     post:'Academic Secretry',
-    imgUrl:"https://telegra.ph/file/bbfc791c6ed48345550dc.png",
+    imgUrl:"https://i.postimg.cc/Prr182P1/Mukesh2.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Tanisha Gupta",
     post:'Design Secretry',
-    imgUrl:"https://telegra.ph/file/8c86d33fa1c074dd56881.png",
+    imgUrl:"https://i.postimg.cc/Ss0G6kC5/Screenshot-30.png",
     instaId:"",
     email:"",
   },
   {
     name:"Aditya Agarwal",
     post:'Design Secretry',
-    imgUrl:"https://telegra.ph/file/a66007641da98ac94e32e.jpg",
+    imgUrl:"https://i.postimg.cc/vHspQvVf/Aditya.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Supreeth Ratam",
     post:'Web Secretry',
-    imgUrl:"https://telegra.ph/file/e3da4bf65b413099c65a6.jpg",
+    imgUrl:"https://i.postimg.cc/R0WtpyvB/sura.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Arnav Patel",
     post:'Sports Secretry',
-    imgUrl:"https://telegra.ph/file/82beedf190fa6dd61f355.png",
+    imgUrl:"https://i.postimg.cc/NGzkDGgM/Arnav.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Anjali Prabhakar",
     post:'Sports Secretry',
-    imgUrl:"https://telegra.ph/file/3680acbf69ef6e30a273d.jpg",
+    imgUrl:"https://i.postimg.cc/WbwxtJGK/Anjali.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Harshini Sreeram",
     post:'Associate Secretry',
-    imgUrl:"https://telegra.ph/file/60dfdf40c4cb255d07d0f.jpg",
+    imgUrl:"https://i.postimg.cc/mrtndXvf/Harshini.jpg",
     instaId:"",
     email:"",
+  },
+]
+const PGList = [
+  {
+    name:"Devang karuskar",
+    post:'PG Cult',
+    imgUrl:"https://i.postimg.cc/Y0Zfb7mT/Devang.png",
+    instaId:"https://www.instagram.com/devang_karuskar/",
+    email:"213100076@iitb.ac.in",
+    phone:"919924660210"
+  },
+  {
+    name:"Amber verma",
+    post:'PG Nominee',
+    imgUrl:"https://i.postimg.cc/J4QbdSBy/Screenshot-37.png",
+    instaId:"https://www.instagram.com/devang_karuskar/",
+    email:"ambery2j@iitb.ac.in",
+    phone:"8586823408"
+  },
+  {
+    name:"Bijay Kumar Shah",
+    post:'PG Sports',
+    imgUrl:"https://i.postimg.cc/K8k8gMFZ/Screenshot-35.png",
+    instaId:"https://www.instagram.com/bijayshah726/",
+    email:"213101002@iitb.ac.in",
+    phone:"8295293289"
+  },
+]
+const CRList = [
+
+  {
+    name:"Bhawna Mahur",
+    post:'3rd year Mech CR',
+    imgUrl:"https://i.postimg.cc/Gm34BNNC/BhawnaCR.jpg",
+    instaId:"mahur_bhawna",
+    email:"200100044@iitb.ac.in",
+    phone:"7668501382"
+  },
+  {
+    name:"Harshita Agarwal ",
+    post:'3rd year Mech CR',
+    imgUrl:"https://i.postimg.cc/C5bkHQb4/harshitha.jpg",
+    instaId:"_.harshitaagarwal",
+    email:"20d100010@iitb.ac.in",
+    phone:"7620505323"
+  },
+  {
+    name:"Kush Patil",
+    post:'2nd year Mech CR',
+    imgUrl:"https://i.postimg.cc/c4sjPM2H/kushCR.jpg",
+    instaId:"_kushpatil",
+    email:"",
+    phone:"8779631566"
+  },
+  {
+    name:"Ashita",
+    post:'2nd year Mech CR',
+    imgUrl:"https://i.postimg.cc/QCV7WzVC/ashitha-CR.jpg",
+    instaId:"",
+    email:"ashita11dutt@gmail.com",
+    phone:"8880060000"
   },
 ]
 export default function MainCouncil() {
@@ -92,6 +154,7 @@ export default function MainCouncil() {
     <div>
         <Container>
         <LeftBox>
+        
         <TheCouncil height = {600}/>
         </LeftBox>
         <RightBox>
@@ -101,11 +164,15 @@ export default function MainCouncil() {
         </CardContainer>
         <PgSec width = {400}/>
         <CardContainer>
-          
+        {PGList.map((item) => <CardPhoto item={item}/>)}
         </CardContainer>
         <UgSec width={400}/>
         <CardContainer>
           {UGsecList.map((item) => <CardPhoto item={item}/>)}
+        </CardContainer>
+        <ClassReps />
+        <CardContainer>
+          {CRList.map((item) =>  <CardPhoto item={item}/>)}
         </CardContainer>
         </RightBox>
         </Container>

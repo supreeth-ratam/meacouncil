@@ -8,12 +8,14 @@ import PgSec from './components/SVG/PgSec'
 import Representatives from './components/SVG/Representatives'
 import MainCouncil from './components/TheCouncil'
 import ClassRepresentatives from './components/SVG/ClassRepresentatives'
+import Header from './pages/Header';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App container">
+    <Header/>
     <MainCouncil/>
     </div>
   )
