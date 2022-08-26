@@ -22,7 +22,7 @@ export default function Header() {
 </div>
     </LeftBox>
     <RightBox>
-    <img src="./public/assets/logo-trans.png" alt="" width={150} /> 
+    <img src="https://iili.io/4CBV6v.png" alt="" width={150} /> 
 
         <MechAssoc/>
 

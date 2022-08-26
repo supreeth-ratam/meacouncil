@@ -96,7 +96,7 @@ const UGsecList = [
   {
     name:"Kriti A",
     post:'Alumini Secretry',
-    imgUrl:"./public/assets/kriti.jpeg",
+    imgUrl:"https://iili.io/4CCJHB.jpg",
     instaId:"kriti__talreja",
     email:"kritiatalreja16@gmail.com",
   },
@@ -164,7 +164,7 @@ const CRList = [
   {
     name:"Kushal Agarwal",
     post:'2nd year Mech CR',
-    imgUrl:"./public/assets/kushal.jpeg",
+    imgUrl:"https://iili.io/4CC9SV.jpg",
     instaId:"kushal_agarwall",
     email:"210100087@iitb.ac.in",
     phone:"9030020210"
