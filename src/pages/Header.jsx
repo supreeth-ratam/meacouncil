@@ -22,7 +22,21 @@ export default function Header() {
 </div>
     </LeftBox>
     <RightBox>
+    <img src="./public/assets/logo-trans.png" alt="" width={150} /> 
+
         <MechAssoc/>
+        <h3>
+          <i>
+      Social Committee of the Mechanical Engineering department, and an independent segment of the council consisting of 30+ members.
+          </i>
+          </h3>
+          <h4>
+            <i>
+            Responsible for the social media and scholastic updates.
+
+            </i>
+          </h4>
+
     </RightBox>
     </MainBox>
   )
@@ -33,14 +47,25 @@ padding-top:80px;
 display:flex;
 align-items:center;
 gap:60px;
+height:100vh;
 .image{
-    height:514px;
-    width:740px;
+    height:314px;
+    width:540px;
     object-fit:cover;
 
 }
+#carouselExampleSlidesOnly{
+}
 `
 const LeftBox = styled.div`
+display:flex;
+flex-direction:column;
+justify-content:center;
+height:100%;
+
 `
 const RightBox = styled.div`
+display:flex;
+flex-direction:column;
+
 `

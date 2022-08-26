@@ -6,7 +6,8 @@ import GenSec from './SVG/GenSec'
 import styled from 'styled-components'
 import CardPhoto from './CardPhoto'
 import ClassReps from './SVG/ClassReps'
-
+import Icon from './SVG/DGsec'
+import MeaGsec from './SVG/MEAGsec'
 const GsecList = [
   {
     name:"Parag Bajaj",
@@ -15,6 +16,9 @@ const GsecList = [
     instaId:"",
     email:"",
   },
+ 
+]
+const MEAGsecList = [
   {
     name:"Ragasree R K",
     post:'General secretry',
@@ -22,6 +26,7 @@ const GsecList = [
     instaId:"",
     email:"",
   },
+ 
 ]
 const UGsecList = [
   {
@@ -154,13 +159,27 @@ export default function MainCouncil() {
     <div>
         <Container>
         <LeftBox>
-        
         <TheCouncil height = {600}/>
         </LeftBox>
         <RightBox>
-        <GenSec width={400}/>
+
         <CardContainer>
+        <div>
+        {/* <h1>Department General Secretary</h1>
+         */}
+         <Icon/>
         {GsecList.map((item) => <CardPhoto item={item}/>)}
+        </div>
+        </CardContainer>
+        <CardContainer>
+        <div>
+        {/* <h1>MEA General Secretary</h1> */}
+        <div className="dgseclogo">
+
+        <MeaGsec/>
+        </div>
+        {MEAGsecList.map((item) => <CardPhoto item={item}/>)}
+        </div>
         </CardContainer>
         <PgSec width = {400}/>
         <CardContainer>
@@ -184,6 +203,9 @@ display: flex;
 height:100%;
 padding-top:60px;
 margin-bottom:100px;
+
+
+
 `
 const RightBox = styled.div`
 gap:30px;
