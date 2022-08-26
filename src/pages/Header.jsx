@@ -25,17 +25,6 @@ export default function Header() {
     <img src="./public/assets/logo-trans.png" alt="" width={150} /> 
 
         <MechAssoc/>
-        <h3>
-          <i>
-      Social Committee of the Mechanical Engineering department, and an independent segment of the council consisting of 30+ members.
-          </i>
-          </h3>
-          <h4>
-            <i>
-            Responsible for the social media and scholastic updates.
-
-            </i>
-          </h4>
 
     </RightBox>
     </MainBox>

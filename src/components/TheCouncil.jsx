@@ -80,17 +80,25 @@ const UGsecList = [
   },
   {
     name:"Anjali Prabhakar",
-    post:'Sports Secretry',
+    post:'Associate Secretry',
     imgUrl:"https://i.postimg.cc/WbwxtJGK/Anjali.jpg",
     instaId:"",
     email:"",
   },
+
   {
     name:"Harshini Sreeram",
     post:'Associate Secretry',
     imgUrl:"https://i.postimg.cc/mrtndXvf/Harshini.jpg",
     instaId:"",
     email:"",
+  },
+  {
+    name:"Kriti A",
+    post:'Alumini Secretry',
+    imgUrl:"./public/assets/kriti.jpeg",
+    instaId:"kriti__talreja",
+    email:"kritiatalreja16@gmail.com",
   },
 ]
 const PGList = [
@@ -152,6 +160,14 @@ const CRList = [
     instaId:"",
     email:"ashita11dutt@gmail.com",
     phone:"8880060000"
+  },
+  {
+    name:"Kushal Agarwal",
+    post:'2nd year Mech CR',
+    imgUrl:"./public/assets/kushal.jpeg",
+    instaId:"kushal_agarwall",
+    email:"210100087@iitb.ac.in",
+    phone:"9030020210"
   },
 ]
 export default function MainCouncil() {
