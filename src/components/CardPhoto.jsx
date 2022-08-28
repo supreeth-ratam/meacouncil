@@ -6,9 +6,18 @@ export default function CardPhoto(props) {
       <Image src={props.item.imgUrl}/>
       <Details className="details">
         <div className="social-icons">
-          <i class="fa-brands fa-instagram"></i>
+          
+         <a href={`https://www.instagram.com/${props.item.instaId}`} className="links"> <i class="fa-brands fa-instagram"></i></a>
+          
+          <div className="mail">
+
           <i class="fa-solid fa-envelope"></i>
+          <p>{props.item.email}</p>
+          </div>
+          <a href={ props.item.linkedIn} className="links">
+
           <i class="fa-brands fa-linkedin-in"></i>
+          </a>
         </div>
         <div className="text-align-center bottom">
           <p className="role">{props.item.name}</p>
@@ -89,6 +98,7 @@ transition: 1000ms ease-in-out opacity;
   width:13%;
   flex-direction:column;
   font-size:22px;
+  background: #272727;
  
 }
 & .social-icons i{
@@ -111,6 +121,35 @@ transition: 1000ms ease-in-out opacity;
   text-align:center;
   color:white;
 }
+.links{
+  text-decoration:none;
+}
+.mail{
+  display:flex;
+  position:relative;
+  align-items:center;
+  flex-direction:row;
 
+  gap:0px;
+  background:#272727;
+  margin:0;
+}
+.mail p{
+  color:white;
+  font-size:14px;
+  background:transparent;
+  margin:0;
+  display:none;
+}
+.mail:hover > p{
+  display:block;
+}
+
+.fa-envelope{
+  cursor:pointer;
+}
+.mail:hover .mail::after{
+  display:flex;
+}
 
 `;
