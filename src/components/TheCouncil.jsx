@@ -11,7 +11,7 @@ import MeaGsec from './SVG/MEAGsec'
 const GsecList = [
   {
     name:"Parag Bajaj",
-    post:'Department General secretry',
+    post:'Department General Secretary',
     imgUrl:"https://i.postimg.cc/Hsyfmhnp/parag.png",
     instaId:"parag_bajaj_18",
     email:"gsec@me.iitb.ac.in",
@@ -22,7 +22,7 @@ const GsecList = [
 const MEAGsecList = [
   {
     name:"Ragasree R K",
-    post:'General secretry',
+    post:'General Secretary',
     imgUrl:"https://i.postimg.cc/PrS8t2RR/Ragasree.jpg",
     instaId:"ragasree.r.k",
     email:"",
@@ -49,7 +49,7 @@ const UGsecList = [
   },
   {
     name:"Mukesh Raj S",
-    post:'Academic Secretry',
+    post:'Academic Secretary',
     imgUrl:"https://i.postimg.cc/Prr182P1/Mukesh2.jpg",
     instaId:"mukeshrajs2711",
     email:"",
@@ -57,7 +57,7 @@ const UGsecList = [
   },
   {
     name:"Tanisha Gupta",
-    post:'Design Secretry',
+    post:'Design Secretary',
     imgUrl:"https://i.postimg.cc/Ss0G6kC5/Screenshot-30.png",
     instaId:"tanisha__07",
     email:"",
@@ -65,14 +65,14 @@ const UGsecList = [
   },
   {
     name:"Aditya Agarwal",
-    post:'Design Secretry',
+    post:'Design Secretary',
     imgUrl:"https://i.postimg.cc/vHspQvVf/Aditya.jpg",
     instaId:"",
     email:"",
   },
   {
     name:"Supreeth Ratam",
-    post:'Web Secretry',
+    post:'Web Secretary',
     imgUrl:"https://i.postimg.cc/R0WtpyvB/sura.jpg",
     instaId:"supreeth_ratam",
     email:"",
@@ -80,7 +80,7 @@ const UGsecList = [
   },
   {
     name:"Arnav Patel",
-    post:'Sports Secretry',
+    post:'Sports Secretary',
     imgUrl:"https://i.postimg.cc/NGzkDGgM/Arnav.jpg",
     instaId:"arnav_patel05",
     email:"",
@@ -88,7 +88,7 @@ const UGsecList = [
   },
   {
     name:"Anjali Prabhakar",
-    post:'Associate Secretry',
+    post:'Associate Secretary',
     imgUrl:"https://i.postimg.cc/WbwxtJGK/Anjali.jpg",
     instaId:"anjali_prabhakar7",
     email:"",
@@ -97,7 +97,7 @@ const UGsecList = [
 
   {
     name:"Harshini Sreeram",
-    post:'Associate Secretry',
+    post:'Associate Secretary',
     imgUrl:"https://i.postimg.cc/mrtndXvf/Harshini.jpg",
     instaId:"harshiniiisreeram",
     email:"",
@@ -105,7 +105,7 @@ const UGsecList = [
   },
   {
     name:"Kriti A",
-    post:'Alumini Secretry',
+    post:'Alumini Secretary',
     imgUrl:"https://iili.io/4CCJHB.jpg",
     instaId:"kriti__talreja",
     email:"kritiatalreja16@gmail.com",
