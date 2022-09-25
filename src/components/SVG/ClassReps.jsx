@@ -1,11 +1,11 @@
 import React from "react";
+var w = window.innerWidth;
 
 function ClassReps() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="600"
-      height="200"
+      width={w >= 440?"500": w.toString()}
       version="1"
       viewBox="0 0 604.5 168.75"
     >

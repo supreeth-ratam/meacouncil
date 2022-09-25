@@ -194,37 +194,45 @@ export default function MainCouncil() {
     <div>
         <Container>
         <LeftBox>
-        <TheCouncil height = {600}/>
+       
+        <TheCouncil height = {500} className="svg"/>
+
         </LeftBox>
         <RightBox>
 
         <CardContainer>
         <div>
-        {/* <h1>Department General Secretary</h1>
-         */}
-         <Icon/>
+        
+        <Icon className="svg"/>
+        
         {GsecList.map((item) => <CardPhoto item={item}/>)}
         </div>
         </CardContainer>
         <CardContainer>
         <div>
-        {/* <h1>MEA General Secretary</h1> */}
         <div className="dgseclogo">
-
-        <MeaGsec/>
+        
+        <MeaGsec className="svg"/>
+        
         </div>
         {MEAGsecList.map((item) => <CardPhoto item={item}/>)}
         </div>
         </CardContainer>
-        <PgSec width = {400}/>
+        
+        <PgSec width = {400} className="svg"/>
+        
         <CardContainer>
         {PGList.map((item) => <CardPhoto item={item}/>)}
         </CardContainer>
-        <UgSec width={400}/>
+        
+        <UgSec width={400} className="svg"/>
+    
         <CardContainer>
           {UGsecList.map((item) => <CardPhoto item={item}/>)}
         </CardContainer>
-        <ClassReps />
+
+        <ClassReps className="svg"/>
+
         <CardContainer>
           {CRList.map((item) =>  <CardPhoto item={item}/>)}
         </CardContainer>
@@ -240,6 +248,7 @@ padding-top:60px;
 margin-bottom:100px;
 
 
+}
 
 `
 const RightBox = styled.div`
@@ -256,6 +265,12 @@ display: flex;
 gap: 40px;
 flex-wrap:wrap;
 margin-bottom:20px;
+@media (max-width: 440px) {
+  flex-direction: column;
+  align-items:start;
+  justify-content:center;
+  width:100%;
+}
 `
 const LeftBox = styled.div`
 position:sticky;
@@ -267,4 +282,12 @@ overflow-y:hidden;
 display:flex;
 width:700px;
 padding-top:0px;
+`
+
+const Iconbox = styled.div`
+@media (max-width: 440px) {
+
+  max-width:100%;
+}
+
 `

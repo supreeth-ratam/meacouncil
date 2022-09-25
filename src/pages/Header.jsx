@@ -45,16 +45,26 @@ height:100vh;
 }
 #carouselExampleSlidesOnly{
 }
+@media (max-width:440px){
+  flex-direction:column;
+  padding:0px;
+  height: fit-content;
+}
 `
 const LeftBox = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:center;
 height:100%;
-
+@media (max-width:440px){
+  justify-content:start;
+  padding:0px;
+  height: fit-content;
+}
 `
 const RightBox = styled.div`
 display:flex;
 flex-direction:column;
-
+@media (max-width:440px){
+  padding-left:60px;
 `

@@ -1,10 +1,10 @@
 import React from "react";
-
-function PgSec(props) {
+var w = window.innerWidth;
+function PgSec() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width= {props.width}
+      width={w >= 440?"400": (w-22).toString()}
       height="80"
       version="1"
       viewBox="0 0 514.5 91.5"

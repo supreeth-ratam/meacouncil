@@ -1,11 +1,10 @@
 import React from "react";
-
+var w = window.innerWidth;
 function MechAssoc() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="450"
-      height="300"
+      width={w >= 440?"450": (w-10).toString()}
       version="1"
       viewBox="0 0 337.5 225"
     >

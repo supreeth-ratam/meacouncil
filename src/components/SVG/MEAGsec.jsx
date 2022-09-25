@@ -1,11 +1,10 @@
 import React from "react";
-
+var w = window.innerWidth;
 function MeaGsec() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="470"
-      height="59"
+      width={w >= 440?"500": (w-10).toString()}
       version="1"
       viewBox="0 0 352.5 44.25"
     >

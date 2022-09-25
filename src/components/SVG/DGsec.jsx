@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+
+var w = window.innerWidth;
 function Icon() {
   return (
     <Container>
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="806"
-      height="225"
+      width={w >= 440?"806": (w-22).toString()}
       version="1"
       viewBox="0 0 604.5 168.75"
     >
